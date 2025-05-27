@@ -10,7 +10,7 @@ import './App.css';
 const API_URL = 'https://imdb-top-100-movies.p.rapidapi.com/';
 
 const API_HEADERS = {
-  'X-RapidAPI-Key': 'cfb2784c77mshe0587a3368d36e6p119ee8jsna8aa69a31cc4',
+  'X-RapidAPI-Key': 'a911bfcbc1msh38a5a20cee3abdep1ba4b5jsn1dfcca6aac98',
   'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com',
 };
 
