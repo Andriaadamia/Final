@@ -644,6 +644,68 @@ nav button:hover {
   transform: rotate(135deg) translate(20%, 20%);
 }
 
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav button {
+    margin: 0.5rem 0;
+  }
+
+  .login-container,
+  .signup-container {
+    padding: 1.5rem;
+  }
+
+  .login-card,
+  .signup-card {
+    width: 90%;
+  }
+
+  .home-main {
+    padding: 10px;
+  }
+
+  .movie-list {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    padding: 0 1rem;
+  }
+
+  .modal-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-body img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .modal-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  .footer a {
+    margin: 0 0.3rem;
+  }
+}
+
 .back-button:active {
   transform: scale(0.95);
   box-shadow: 0 3px 10px rgba(0, 123, 255, 0.7);
