@@ -60,7 +60,7 @@ function App() {
   const handleSignup = (email, password) => {
     localStorage.setItem('registeredUserEmail', email);
     localStorage.setItem('registeredUserPassword', password);
-    alert('Registration successful! Please sign in.');
+    alert('Registration successful! Please Login.');
     setPage('login');
   };
 
