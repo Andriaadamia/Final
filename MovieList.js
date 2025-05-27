@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../components/MovieList.css'; // დაამატე ეს სტრიქონი
+import '../components/MovieList.css'; 
 
 function MovieList({ movies, onSelectMovie }) {
   const [currentPage, setCurrentPage] = useState(1);
