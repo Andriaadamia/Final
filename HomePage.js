@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import MovieList from '../components/MovieList';
 import Movies from '../components/Movies';
-import '../App.css'; // ახალი CSS ფაილი
+import '../App.css'; 
 
 function HomePage({ movies }) {
   const [search, setSearch] = useState('');
