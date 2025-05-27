@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Header({ user, onLogout, onNavigate, currentPage }) {
-  console.log("Current Page:", currentPage); // დახმარებისთვის
+  console.log("Current Page:", currentPage); 
 
   return (
     <header className="header">
@@ -21,7 +21,7 @@ function Header({ user, onLogout, onNavigate, currentPage }) {
               <button
                 className="back-button"
                 onClick={() => onNavigate('home')}
-                style={{ marginRight: '10px' }}  // ეს შეიძლება საჭირო იყოს spacing-ისთვის
+                style={{ marginRight: '10px' }} 
               >
                 ← Back to Movies
               </button>
