@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/MovieCard.css'; // ვამატებთ CSS ფაილს
+import '../components/MovieCard.css'; 
 
 function MovieCard({ movie }) {
   return (
